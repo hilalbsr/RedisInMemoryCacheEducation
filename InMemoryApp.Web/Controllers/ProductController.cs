@@ -82,7 +82,6 @@ namespace InMemoryApp.Web.Controllers
             #endregion
 
             ViewBag.product = _memoryCache.Get<Product>("product:1");
-
             return View();
         }
     }
